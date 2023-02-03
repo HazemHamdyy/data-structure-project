@@ -1,0 +1,10 @@
+﻿  Consistency.cpp
+D:\ASU ENG\senior 1\Data structure\projects things\Saher part\Project1\Project1\Consistency.cpp(32,23): warning C4018: '<': signed/unsigned mismatch
+D:\ASU ENG\senior 1\Data structure\projects things\Saher part\Project1\Project1\Consistency.cpp(128,23): warning C4018: '<': signed/unsigned mismatch
+D:\ASU ENG\senior 1\Data structure\projects things\Saher part\Project1\Project1\Consistency.cpp(174,23): warning C4018: '<': signed/unsigned mismatch
+D:\ASU ENG\senior 1\Data structure\projects things\Saher part\Project1\Project1\Consistency.cpp(188,25): warning C4018: '<': signed/unsigned mismatch
+D:\ASU ENG\senior 1\Data structure\projects things\Saher part\Project1\Project1\Consistency.cpp(194,17): warning C4018: '<': signed/unsigned mismatch
+D:\ASU ENG\senior 1\Data structure\projects things\Saher part\Project1\Project1\Consistency.cpp(196,33): warning C4018: '<': signed/unsigned mismatch
+D:\ASU ENG\senior 1\Data structure\projects things\Saher part\Project1\Project1\Consistency.cpp(26): warning C4715: 'consistency_checker': not all control paths return a value
+D:\ASU ENG\senior 1\Data structure\projects things\Saher part\Project1\Project1\Consistency.cpp(116): warning C4715: 'error_detector': not all control paths return a value
+  Project1.vcxproj -> D:\ASU ENG\senior 1\Data structure\projects things\Saher part\Project1\Debug\Project1.exe
