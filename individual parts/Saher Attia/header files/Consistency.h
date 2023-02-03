@@ -1,3 +1,6 @@
+#ifndef CONSISTENCY_H
+#define CONSISTENCY_H
+
 #include"Helpers.h"
 
 struct err_data
@@ -14,3 +17,6 @@ vector <err_data> detect_error(vector <string> xml_vector);
 
 vector <string> error_corrector(vector <string> xml_vector, vector <err_data> error_vector);
 
+string printError (vector <err_data> error_vector);
+
+#endif

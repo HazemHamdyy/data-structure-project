@@ -83,3 +83,15 @@ string getClosedTag(string t)
     else
         return "FALSE";
 }
+
+string getTagValue(string t)
+{
+    int start = -1;
+    int end = -1;
+    start = t.find(">", 0);
+    end = t.find("/", start);
+    if (start != -1)
+        return t.substr(start + 1, end - start - 2);
+    else
+        return "FALSE";
+}
