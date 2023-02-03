@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1214</width>
+    <height>715</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="text">
+             <string>Open File</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="text">
+             <string>Format XML</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="text">
+             <string>Check Consistency</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_9">
+            <property name="text">
+             <string>Check for Errors</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_11">
+            <property name="text">
+             <string>Correct Consistency</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="text">
+             <string>Minify</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="text">
+             <string>Compress</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="text">
+             <string>Decompress</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="text">
+             <string>Convert to JSON</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="text">
+             <string>Graph Info</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="text">
+             <string>Search Posts</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_12">
+            <property name="text">
+             <string>Mutual Followers</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_13">
+            <property name="text">
+             <string>Suggest Followers</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPlainTextEdit" name="plainTextEdit"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1214</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_as"/>
+   </widget>
+   <widget class="QMenu" name="menuOperations">
+    <property name="title">
+     <string>Operations</string>
+    </property>
+    <addaction name="actionFormat"/>
+    <addaction name="actionMinify"/>
+    <addaction name="actionConvert_to_JSON"/>
+    <addaction name="actionCompress"/>
+    <addaction name="separator"/>
+    <addaction name="actionSearch_the_Graph"/>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuOperations"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/open.png</normaloff>:/rec/imgs/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/save.ico</normaloff>:/rec/imgs/save.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionFormat">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/prettify.png</normaloff>:/rec/imgs/prettify.png</iconset>
+   </property>
+   <property name="text">
+    <string>Format</string>
+   </property>
+  </action>
+  <action name="actionMinify">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/minify.png</normaloff>:/rec/imgs/minify.png</iconset>
+   </property>
+   <property name="text">
+    <string>Minify</string>
+   </property>
+  </action>
+  <action name="actionConvert_to_JSON">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/json.png</normaloff>:/rec/imgs/json.png</iconset>
+   </property>
+   <property name="text">
+    <string>Convert to JSON</string>
+   </property>
+  </action>
+  <action name="actionCompress">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/compress.png</normaloff>:/rec/imgs/compress.png</iconset>
+   </property>
+   <property name="text">
+    <string>Compress</string>
+   </property>
+  </action>
+  <action name="actionSearch_the_Graph">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/search.png</normaloff>:/rec/imgs/search.png</iconset>
+   </property>
+   <property name="text">
+    <string>Search the Graph</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/Save as.png</normaloff>:/rec/imgs/Save as.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save as</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/Undo.png</normaloff>:/rec/imgs/Undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/rec/imgs/Redo-icon.png</normaloff>:/rec/imgs/Redo-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
