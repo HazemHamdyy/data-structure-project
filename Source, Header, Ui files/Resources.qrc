@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>imgs/compress.png</file>
+        <file>imgs/open.png</file>
+        <file>imgs/save.ico</file>
+        <file>imgs/search.png</file>
+        <file>imgs/Save as.png</file>
+        <file>imgs/minify.png</file>
+        <file>imgs/json.png</file>
+        <file>imgs/prettify.png</file>
+        <file>imgs/Redo-icon.png</file>
+        <file>imgs/Undo.png</file>
+    </qresource>
+</RCC>
