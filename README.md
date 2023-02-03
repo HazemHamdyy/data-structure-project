@@ -18,7 +18,8 @@ This is what the UI of the editor will look like:
 
 
 ## The Operations tab:
-* Format: This button auto-indents the selected file into the correct indentation. It can be used on any xml-structured files and the output will be a formatted and well-indented file.
+* ### Format: 
+    This button auto-indents the selected file into the correct indentation. It can be used on any xml-structured files and the output will be a formatted and well-indented file.
 * Minify: This button removes all the spaces, indents, and new lines in the file.
 * Convert To JSON: This button converts the file from XML format to JSON Format.
 * Compress: The output will be a compressed form of the file.
