@@ -1,9 +1,9 @@
 ﻿  Source.cpp
-D:\ASU ENG\senior 1\Data structure\projects things\test 1\Project1\Project1\Source.cpp(109,23): warning C4018: '<': signed/unsigned mismatch
-D:\ASU ENG\senior 1\Data structure\projects things\test 1\Project1\Project1\Source.cpp(147,23): warning C4018: '<': signed/unsigned mismatch
-D:\ASU ENG\senior 1\Data structure\projects things\test 1\Project1\Project1\Source.cpp(287,23): warning C4018: '<': signed/unsigned mismatch
-D:\ASU ENG\senior 1\Data structure\projects things\test 1\Project1\Project1\Source.cpp(103): warning C4715: 'consistency_checker': not all control paths return a value
-D:\ASU ENG\senior 1\Data structure\projects things\test 1\Project1\Project1\Source.cpp(52): warning C4715: 'file_to_vector': not all control paths return a value
-D:\ASU ENG\senior 1\Data structure\projects things\test 1\Project1\Project1\Source.cpp(212): warning C4715: 'error_location': not all control paths return a value
-D:\ASU ENG\senior 1\Data structure\projects things\test 1\Project1\Project1\Source.cpp(274): warning C4715: 'error_detector': not all control paths return a value
-  Project1.vcxproj -> D:\ASU ENG\senior 1\Data structure\projects things\test 1\Project1\Debug\Project1.exe
+D:\ASU ENG\senior 1\Data structure\projects things\operations on xml\Project1\Project1\Source.cpp(109,23): warning C4018: '<': signed/unsigned mismatch
+D:\ASU ENG\senior 1\Data structure\projects things\operations on xml\Project1\Project1\Source.cpp(147,23): warning C4018: '<': signed/unsigned mismatch
+D:\ASU ENG\senior 1\Data structure\projects things\operations on xml\Project1\Project1\Source.cpp(287,23): warning C4018: '<': signed/unsigned mismatch
+D:\ASU ENG\senior 1\Data structure\projects things\operations on xml\Project1\Project1\Source.cpp(103): warning C4715: 'consistency_checker': not all control paths return a value
+D:\ASU ENG\senior 1\Data structure\projects things\operations on xml\Project1\Project1\Source.cpp(52): warning C4715: 'file_to_vector': not all control paths return a value
+D:\ASU ENG\senior 1\Data structure\projects things\operations on xml\Project1\Project1\Source.cpp(212): warning C4715: 'error_location': not all control paths return a value
+D:\ASU ENG\senior 1\Data structure\projects things\operations on xml\Project1\Project1\Source.cpp(274): warning C4715: 'error_detector': not all control paths return a value
+  Project1.vcxproj -> D:\ASU ENG\senior 1\Data structure\projects things\operations on xml\Project1\Debug\Project1.exe

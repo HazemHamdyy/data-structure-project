@@ -59,7 +59,7 @@ string getOpenTag(string t)
     int end = -1;
     start = t.find("<", 0);
     end = t.find(">", start);
-    if (start != -1 && t[start + 1] != '/')
+    if (start != -1 && t[start + 1] != '/' && t[start + 1] != '?' && t[start + 1] != '!')
         return t.substr(start + 1, end - start - 1);
     else
         return "FALSE";
@@ -266,7 +266,7 @@ bool error_detector(string opent, string closedt, stack <string>& s , string &er
         }
         else
         {
-            error_type = "error_at_location_0";
+            error_type = "<" + closedt + ">";
             return false; //error at location zero
         }
         return true;
@@ -296,20 +296,17 @@ void detect_error(vector <string> xml_vector)
         {
             if (!error_detector(opent, closedt, s, error_type))
             {
-                //err_loc = error_location(i, error_type, xml_vector);
-                //cout << error_type<<" at location " << err_loc <<"\n";
                 if (error_type.size() > 25)
                     cout << error_type<<"\n";
                 else
                     cout <<"missing "<< error_type << "\n";
-
             }
         }
     }
     while (!s.empty())
     {
         string err = "</" + s.top() + ">";
-        cout << err<<"\n";
+        cout <<"missing "<< err<<"\n";
         s.pop();
     }
 }
@@ -324,6 +321,7 @@ void detect_error(vector <string> xml_vector)
 
 int main() {
 
+    
     vector <string> xml_vector = file_to_vector("errorsample.txt");
     if (check_consistency(xml_vector))
     {
@@ -333,8 +331,6 @@ int main() {
     {
         detect_error(xml_vector);
     }
-        //cout << "there is an error in consistency" << "\n";
-
-    /*format(xml_vector);*/
+        
 
 }
